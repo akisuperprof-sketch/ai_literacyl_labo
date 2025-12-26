@@ -48,7 +48,7 @@ export default function Library() {
                             <h3 style={{ fontSize: '1.3rem', marginBottom: '15px' }}>{m.title}</h3>
                             <div style={{ height: '100px', background: 'rgba(0,0,0,0.05)', borderRadius: '10px', marginBottom: '15px' }}></div>
                             <button className="btn-glass" style={{ width: '100%', fontSize: '0.9rem' }}>
-                                詳細を見る (デモ)
+                                本を開く (デモ)
                             </button>
                         </div>
                     ))}
