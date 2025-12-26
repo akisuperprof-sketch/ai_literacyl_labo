@@ -1,36 +1,42 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 家庭AIリテラシー・ラボ (Household AI Literacy Lab)
 
-## Getting Started
+未成年を含む家庭において、AIを用いた「振り返り」「整理」「表現」を安全かつ静かに体験するための学習ポータルです。
 
-First, run the development server:
+## 概要
+本ポータルは、AI処理を伴う各外部ツールへの「導線」と「判断」に特化したハブとして機能します。
+教育的配慮により、成果測定・ランキング・収益要素を徹底的に排除した静謐なデザインを採用しています。
+
+**リポジトリURL**: [https://github.com/akisuperprof-sketch/ai_literacyl_labo](https://github.com/akisuperprof-sketch/ai_literacyl_labo)
+
+## 不変原則 (Core Principles)
+1. **成果測定なし**: 点数、ランキング、比較を行わない。
+2. **商業色排除**: 収益、稼ぐ、拡散などの要素を排除。
+3. **生活優先**: 学業と生活を最優先とする。
+4. **管理不要**: 保護者の監視・監督を必要としない設計。
+
+詳細は [SPECIFICATION.md](./SPECIFICATION.md) を参照してください。
+
+## 技術スタック
+- **Framework**: Next.js 16 (App Router)
+- **Language**: TypeScript
+- **Styling**: Vanilla CSS (CSS Modules不使用, Global Variables活用)
+- **Deployment**: Vercel
+
+## ローカル開発環境のセットアップ
 
 ```bash
+# 依存関係のインストール
+npm install
+
+# 開発サーバーの起動
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+ブラウザで `http://localhost:3000` にアクセスしてください。
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 運用上の注意
+本プロジェクトは **仕様固定 (FROZEN)** されています。
+不具合修正および法的・安全上の問題対処以外の機能追加は禁止されています。
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+*運営事務局*
