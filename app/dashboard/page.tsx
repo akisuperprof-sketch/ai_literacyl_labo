@@ -60,6 +60,11 @@ export default function Dashboard() {
                     <div className="glass-panel" style={{ display: 'inline-block', padding: '10px 20px', fontSize: '0.9rem', color: 'var(--text-muted)' }}>
                         ⚠️ 本ラボは成果や収益を保証するものではありません
                     </div>
+
+                    <div style={{ margin: '30px auto', maxWidth: '800px', width: '100%' }}>
+                        <img src="/characters_banner.png" alt="Process flow: Frog, Giraffe, Red Panda, Elephant" style={{ width: '100%', height: 'auto', borderRadius: '20px', boxShadow: '0 10px 30px rgba(0,0,0,0.05)' }} />
+                    </div>
+
                     <div style={{ marginTop: '20px', fontSize: '1rem', color: 'var(--text-main)', fontWeight: 500 }}>
                         参加期間終了まで: <span style={{ color: 'var(--primary)', fontSize: '1.2rem' }}>{daysLeft}日</span> ({endDateStr}まで)
                     </div>
